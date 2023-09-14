@@ -1,0 +1,110 @@
+
+#introduccion
+{
+    background-image: url(/imagenes/para3.jpg);
+    background-size: cover;    
+    background-position: center;     
+}
+
+
+.title
+{
+    text-align: center;
+    margin-top: 2%;
+    
+}
+
+
+details
+{
+    color: antiquewhite;
+}
+
+input
+{
+    cursor:pointer;
+}
+
+
+
+
+#umbrellapq:hover
+{
+    transform: scale(1.05); 
+    filter: invert();
+
+}
+
+#Descripcion:hover
+{
+    transform: scale(1.03);
+}
+
+
+.header:hover
+{    
+    transform:  scale(1.10);
+}
+
+
+
+#umbrella 
+{
+    background-image:url(/imagenes/huellaLogo.png);
+    background-repeat:no-repeat;
+    background-size: 180px 180px;
+    background-position:center;
+    background-color: transparent;
+    border: none;     
+    height: 180px;;    
+    width:150px;    
+    transition: transform 0.25s;
+    animation-name: blink;
+    
+    animation-duration: 1.20s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;  
+
+}  
+
+@keyframes blink {
+    from {transform: scale(1);}
+    to{transform: scale(1.03);}
+    
+
+}
+
+
+
+#umbrella:hover 
+{
+    transform: scale(1.05); 
+    filter: invert();  
+    
+}
+
+.umbre
+{ 
+    position: relative;
+    justify-content: center;
+    display: flex;   
+    margin-top: 30%;      
+}
+
+#Titulo
+{      
+    position: absolute;
+    top: 19%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: auto;
+    font-family: 'Inter';
+    font-style: normal;
+    color: white;
+    font-weight: 700;
+    font-size: 100px;
+    line-height: 29px;
+    letter-spacing: 0.55em;
+    -webkit-text-stroke: 1.7px black;
+}
+
